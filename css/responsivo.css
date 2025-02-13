@@ -1,0 +1,259 @@
+
+
+@media screen and (max-width: 1260px) {
+    .nome-footer-marca {
+        position: absolute;
+        left: -30px;
+        transform: scale(0.9);
+    }
+}
+
+@media  screen and (max-width: 1168px) {
+    .container-polaroid {
+        margin: auto!important;
+        padding-left: 140px;
+        grid-gap: 20px;
+    }
+
+    .nome-footer-marca {
+        transform: scale(0.9);
+        bottom: -15px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    .nome-footer-marca {
+        bottom: -20px;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 991px){
+    .div-cursos-selecionados{
+        display: flex;
+        flex-direction: row;
+        transform: scale(0.8);
+    }
+
+    .curso-selecionado {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .container-polaroid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0!important;
+    }
+
+    .nome-footer-marca {
+        bottom: -35px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .marca-footer {
+        transform: scale(0.2);
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .nome-footer-marca {
+        transform: scale(0.7);
+        position: absolute;
+        left: -50px;
+    }
+
+    .curso-selecionado {
+        width: 340px;
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+
+    .header,.resumo {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+
+    .botoes-resumo {
+        display: flex!important;
+        flex-direction: row!important;
+        flex-wrap: wrap;
+        margin: 0 auto!important;
+        gap: 15px!important;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .cursos {
+        height: 850px;
+    }
+
+    .grupo-botoes-cursos {
+        overflow: hidden;
+        overflow-x: auto;
+        display: flex;
+        justify-content: start;
+    }
+
+    .div-img-linguagem {
+        margin-left: 0px;
+    }
+
+
+    .div-cursos-selecionados {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+    
+    .curso-selecionado {
+        transform: scale(0.9);
+        width: 300px;
+        padding: 0!important;
+
+    }
+
+    
+
+    .container-polaroid {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    .polaroid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .polaroid-mobile {
+        display: none;
+    }
+
+    h2 {
+        font-size: 100px!important;
+    }
+
+    .marca-footer {
+        position: absolute;
+        bottom: -220px;
+    }
+
+    .nome-footer-marca {
+        bottom: -55px;
+    }
+
+}
+
+@media screen and (max-width: 605px) {
+    .nome-footer-marca {
+        transform: scale(0.6);
+        bottom: -90px;
+        left: -60px;
+        display: none;
+    }
+
+    .modo-light .wave1,
+    .modo-light .wave2,
+    .modo-light .wave3 {
+        filter: none;
+    }
+
+    .logo-footer {
+        transform: scale(0.8);
+    }
+
+    
+
+}
+
+@media screen and (max-width: 541px) {
+    .aorela-nome {
+        transform: translate(-290px, 180px) rotate(40deg)!important;
+    }
+}
+
+
+@media screen and (max-width: 508px){
+    .curso-selecionado {
+        transform: scale(0.8)!important;
+        width: 200px;
+    }
+
+    .nome-curso-marca {
+        opacity: 5%;
+    }
+
+    .cursos {
+        background-color: var(--color-black-heavy);
+        height: 800px;
+        position: relative;
+        top: -10px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .grupo-footer {
+        gap: 30px;
+    }
+
+    .nome-destaque {
+        line-height: 180px;
+    }
+
+    .div-cursos-selecionados {
+        margin-top: -20px!important;
+        display: flex;
+        gap: 12px;
+    }
+
+    .card-habilidade img {
+        width: 50px!important;
+        height: 50px!important;
+    }
+
+    .card-habilidade {
+        padding: 0 40px;
+    }
+
+    .icon-info-cursos {
+        width: 35px!important;
+        height: 35px!important;
+    }
+
+    
+}
+
+@media screen and (max-width: 390px) {
+    .curso-selecionado {
+        width: 180px;
+        padding: 0!important;
+        margin: 0!important;
+    }
+
+    .div-cursos-selecionados {
+        gap: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
