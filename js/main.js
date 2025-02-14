@@ -31,7 +31,6 @@ const btnCursos = {
   frameworks: "frameworks",
   lenguages: "javascript",
   dados: "dados",
-  design: "design",
   extras: "extras"
 };
 
@@ -51,14 +50,10 @@ const cursosData = {
     ["img/prismacurso.png", "Prisma DB", "- INTERESSE -", true],
     ["img/mysqlcurso.png", "MySQL", "- INTERESSE -", true]
   ],
-  design: [
-    ["img/uxui.png", "UX UI", "Mar 2023 a  Out 2023"],
-    ["img/webcurso.png", "Web Design", "Mar 2023 a Out 2023", false],
-    ["img/figmacurso.png", "Figma", "Dez 2023 a Fev 2024", false]
-  ],
   extras: [
     ["img/gitcurso.png", "Git", "Set 2022 a Out 2022"],
-    ["img/githubcurso.png", "Github", "Set 2022 a Out 2022", false]
+    ["img/githubcurso.png", "Github", "Set 2022 a Out 2022", false],
+    ["img/figmacurso.png", "Figma", "Dez 2023 a Fev 2024", false]
   ]
 };
 
