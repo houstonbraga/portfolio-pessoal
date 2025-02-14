@@ -59,7 +59,7 @@ body {
 }
 
 .wallpaper-hero {
-    opacity: 8%;
+    opacity: 10%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -67,7 +67,7 @@ body {
 }
 
 .wallpaper-hero2 {
-  opacity: 8%;
+  opacity: 10%;
   width: 100%;
   position: absolute;
   top: 2300px;
@@ -211,10 +211,6 @@ a.navbar-brand {
   background-position: 100%;
 }
 
-.nav-project {
-  color: #8f18ca !important;
-}
-
 /*aorela-nome*/
 
 .aorela-nome {
@@ -310,7 +306,7 @@ a.navbar-brand {
 }
 
 .text-about span:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid #FAA819;
 }
 
 .wave1 {
