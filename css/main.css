@@ -51,6 +51,7 @@ body {
   font-family: "Audiowide", "Rubik", sans-serif;
   background-color: #111111;
   color: var(--color-white);
+  
 }
 
 body {
@@ -85,9 +86,9 @@ body {
 
 /* header */
 
-header {
-  padding-left: 80px !important;
-  padding-right: 80px;
+.header {
+  max-width: 1620px;
+  margin: auto!important;
 }
 
 a.navbar-brand {
@@ -227,6 +228,11 @@ a.navbar-brand {
 }
 
 /*resumo*/
+
+.resumo {
+  max-width: 1620px;
+  margin: auto!important;
+}
 
 .nome-destaque {
   font-size: 160px;
