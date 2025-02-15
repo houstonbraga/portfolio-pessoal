@@ -79,7 +79,7 @@ Object.values(btnCursos).forEach(id => {
 window.addEventListener("load", () => document.getElementById("frameworks").classList.add("sombra"));
 
 // Hover nos projetos
-["info-projeto1", "info-projeto2", "info-projeto3"].forEach((id, i) => {
+["info-projeto1", "info-projeto2", "info-projeto3", "info-projeto4", "info-projeto5"].forEach((id, i) => {
   const elementoDestino = document.getElementById(id);
   const elementoGatilho = document.getElementById(`polaroid${i + 1}`);
   elementoGatilho.addEventListener("mouseenter", () => elementoDestino.style.display = "flex");
