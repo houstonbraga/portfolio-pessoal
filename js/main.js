@@ -5,7 +5,7 @@ document.querySelectorAll('.navbar-nav .nav-link[href^="#"]').forEach(link => {
     const targetSection = document.querySelector(targetId);
     if (targetSection) {
       targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      setTimeout(() => { window.location.hash = targetId; }, 500);
+      setTimeout(() => { window.location.hash = targetId; }, 700);
     }
   });
 });
