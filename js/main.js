@@ -38,7 +38,7 @@ const cursosData = {
   frameworks: [
     ["img/reactcurso.png", "React JS", "Jun 2024 a Jan 2025"],
     ["img/nodecurso.png", "Node JS", "Jan 2023 a Dez 2023", false],
-    ["img/vuecurso.png", "Vue JS", "- INTERESSE -", false]
+    ["img/icons8-nextjs-250.png", "Next JS", "- Dez 2024 a Mai 2025 -", false]
   ],
   lenguages: [
     ["img/javascript light.png", "Javascript", "- Out 2023 a Jul 2024 -"],
@@ -48,7 +48,7 @@ const cursosData = {
   dados: [
     ["img/postgresqlcurso.png", "PostgreSQL", "- INTERESSE -", true],
     ["img/prismacurso.png", "Prisma DB", "- INTERESSE -", true],
-    ["img/mysqlcurso.png", "MySQL", "- INTERESSE -", true]
+    ["img/pngwing.com.png", "MongoDB", "- INTERESSE -", true]
   ],
   extras: [
     ["img/gitcurso.png", "Git", "Set 2022 a Out 2022"],
