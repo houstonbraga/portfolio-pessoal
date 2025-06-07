@@ -10,7 +10,7 @@ document.querySelectorAll('.navbar-nav .nav-link[href^="#"]').forEach(link => {
   });
 });
 
-// Mudar tema
+
 const checkbox = document.getElementById("chk");
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("modo-light");
@@ -19,14 +19,14 @@ checkbox.addEventListener("change", () => {
   });
 });
 
-// Mudar logo ao trocar o tema
+
 const logo = document.getElementById("img-logo");
 const logos = { light: "img/logo-light.png", dark: "img/logo.png" };
 function mudarLogo() {
   logo.src = logo.src.includes(logos.light) ? logos.dark : logos.light;
 }
 
-// Botões cursos
+
 const btnCursos = {
   frameworks: "frameworks",
   lenguages: "javascript",
@@ -38,16 +38,16 @@ const cursosData = {
   frameworks: [
     ["img/reactcurso.png", "React JS", "Jun 2024 a Jan 2025"],
     ["img/nodecurso.png", "Node JS", "Jan 2023 a Dez 2023", false],
-    ["img/icons8-nextjs-250.png", "Next JS", "- Dez 2024 a Mai 2025 -", false]
+    ["img/icons8-nextjs-250.png", "Next JS", "- Dez 2024 a (current) -", false]
   ],
   lenguages: [
     ["img/javascript light.png", "Javascript", "- Out 2023 a Jul 2024 -"],
-    ["img/python.png.png", "Python", "- INTERESSE -", true],
+    ["img/ts.png", "Typescript", "- Jun 2024 a Mar 2025 -", false],
     ["img/csharp.png", "C#", "- INTERESSE -", true]
   ],
   dados: [
-    ["img/postgresqlcurso.png", "PostgreSQL", "- INTERESSE -", true],
-    ["img/prismacurso.png", "Prisma DB", "- INTERESSE -", true],
+    ["img/postgresqlcurso.png", "PostgreSQL", "- Mai 2025 a (current) -", false],
+    ["img/prismacurso.png", "Prisma DB", "- Mai 2025 a (current) -", false],
     ["img/pngwing.com.png", "MongoDB", "- INTERESSE -", true]
   ],
   extras: [
@@ -68,7 +68,7 @@ Object.keys(btnCursos).forEach(key => {
   });
 });
 
-// Adicionar sombra ao botão ativo
+
 const removerSombra = () => Object.values(btnCursos).forEach(id => document.getElementById(id).classList.remove("sombra"));
 Object.values(btnCursos).forEach(id => {
   document.getElementById(id).addEventListener("click", () => {
@@ -78,14 +78,14 @@ Object.values(btnCursos).forEach(id => {
 });
 window.addEventListener("load", () => document.getElementById("frameworks").classList.add("sombra"));
 
-// Hover nos projetos
+
 ["info-projeto1", "info-projeto2", "info-projeto3", "info-projeto4", "info-projeto5"].forEach((id, i) => {
   const elementoDestino = document.getElementById(id);
   const elementoGatilho = document.getElementById(`polaroid${i + 1}`);
   elementoGatilho.addEventListener("mouseenter", () => elementoDestino.style.display = "flex");
   elementoGatilho.addEventListener("mouseleave", () => elementoDestino.style.display = "none");
 });
-//SCROLL INTERACTIVE
+// animation
 
 var listaTargetResumo = [
   document.querySelector(".nome-destaque"),
